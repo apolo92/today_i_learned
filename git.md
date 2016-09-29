@@ -30,3 +30,7 @@
     #... ~/.bash_profile ...
 
 `source ~/.bash_profile`
+
+####Para ver las diferencias entre commits
+
+`git diff`
