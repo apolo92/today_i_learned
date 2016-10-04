@@ -1,6 +1,10 @@
+#Docker hints
+
+Please visit ./docker_sample project if you want to check a working project
+
 ####Create a Dockerfile
 
-    [Dockerfile_Example](./Dockerfile)
+[Dockerfile_Example](./docker_sample/Dockerfile)
 
 ####Create image  
 
@@ -27,3 +31,7 @@ You can use grep to filter them
 ####To list all docker images
 
 `docker images`
+
+####.dockerfile info
+
+You need to add the files that you don't want to add direcly to the docker image, for example node_modules will be installed via the script `npm install` from the online npm repos
