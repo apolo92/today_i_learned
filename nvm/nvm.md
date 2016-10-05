@@ -26,3 +26,9 @@
 ####To change betweeen node versions
 
 `nvm use 4.5.0`
+
+####.nvmrc
+
+You can create a file named .nvmrc at root folder of your project and execute: `nvm use` then nvm will read the version to use here from this file
+
+Please find a file example on this project

@@ -1,2 +1,2 @@
-# linux_commands
-List of useful Linux commands
+#Today I Learned (TIL)
+Here I'll list things that I learned
