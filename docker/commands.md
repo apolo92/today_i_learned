@@ -8,13 +8,13 @@ Please visit ./docker_sample project if you want to check a working project
 
 ####Create image  
 
-`docker build . -t <IMAGE_NAME>:<TAG_VERSION>`
+`docker build . -t <IMAGE_NAME>:<TAG_VERSION>`  
 `docker build . -t sample:0.1.2>`
 
 ####Run an image
 
-`docker run -rm -it -p <HOST_PORT>:<DOCKER_PORT> <IMAGE_NAME>[:<TAG_VERSION>]`  
-`docker run -rm -it -p 3000:3000 sample:0.1.2`  
+`docker run --rm -it -p <HOST_PORT>:<DOCKER_PORT> <IMAGE_NAME>[:<TAG_VERSION>]`  
+`docker run --rm -it -p 3000:3000 sample:0.1.2`  
 
 ####Show all Docker containers
 
